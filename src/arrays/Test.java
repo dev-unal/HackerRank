@@ -23,6 +23,16 @@ public class Test {
 		List<Integer> rotList = Arrays.asList(33 ,47 ,70 ,37 ,8 ,53 ,13 ,93 ,71 ,72 ,51 ,100 ,60 ,87 ,97);
 		System.out.println("Left rotation : new array after rotation : " + leftRotation.rotLeft(rotList, 13));
 		
+		// New Year Chaos
+		NewYearChaos newYearChaos = new NewYearChaos();
+		//List<Integer> q = Arrays.asList(2,1,5,3,4);
+		//List<Integer> q = Arrays.asList(2,5,1,3,4);
+		//List<Integer> q = Arrays.asList(1,2,3,5,4,6,7,8);
+		//List<Integer> q = Arrays.asList(4,1,2,3);
+		List<Integer> q = Arrays.asList(5, 1, 2, 3, 7, 8, 6, 4);
+		
+		newYearChaos.minimumBribes(q);
+		
 	}
 
 }
