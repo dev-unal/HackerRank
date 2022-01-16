@@ -33,6 +33,12 @@ public class Test {
 		
 		newYearChaos.minimumBribes(q);
 		
+		// MinimumSwap2
+		MinimumSwaps2 minimumSwap2 = new MinimumSwaps2();
+		//int[] array = new int[] {4,3,2,1};
+		//int[] array = new int[] {7,1,3,2,4,5,6};
+		int[] array = new int[] {1, 3 ,5 ,2 ,4 ,6, 7};
+		System.out.println("Minimum Swap 2 : " + minimumSwap2.minimumSwaps(array));
 	}
 
 }
